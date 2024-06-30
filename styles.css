@@ -1,17 +1,41 @@
 body {
-    background-color: rgb(247, 252, 226);
+  background-color: rgb(248, 239, 199);
 }
 .main-header {
-    color: black; font-size: 40px;
+    color: rgb(0, 0, 0); font-size: 40px;
     background-color: rgb(250, 191, 191);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 650px 10px;
+    padding: 10px;
+    
   }
+
+  .start-cooking{
+    background-color: wheat;
+    padding: 10px;
+    border: 1px black solid;
+    text-align: center;
+    margin: 0 650px 10px;
+    font-size: 22px;
+    
+  }
+
+
   .links {
-    background-color: aqua; color: black;
     font-style: italic; 
     font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    
   }
+  
+  h2, h3 {
+    text-align: center;
+    font-size: 30px;
+   }
 
  .pudding-header,
  .teriyaki-header,
@@ -20,6 +44,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 35px;
+    border: 1px solid black;
+    margin: 0 650px 10px; 
+    padding: 10px;
+  
+ }
+
+ .fettuccine-header{
+  margin: 0 600px 10px;
  }
  .teriyaki-header{
    background-color: coral;
@@ -32,7 +64,13 @@ body {
  .fettuccine-para, .fettuccine-ingredients,
  .fettuccine-steps, .teriyaki-para, .teriyaki-ingredients,
  .teriyaki-steps{
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 22px;
+   margin: 25px;
+
  }
+
+ 
+
 
  
