@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(247, 252, 226);
+}
+.main-header {
+    color: black; font-size: 40px;
+    background-color: rgb(250, 191, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .links {
+    background-color: aqua; color: black;
+    font-style: italic; 
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ .pudding-header,
+ .teriyaki-header,
+ .fettuccine-header{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+ }
+ .teriyaki-header{
+   background-color: coral;
+ }
+ .fettuccine-header{
+   background-color: burlywood;
+ }
+ 
+ .pudding-para, .pudding-ingredients, .pudding-steps,
+ .fettuccine-para, .fettuccine-ingredients,
+ .fettuccine-steps, .teriyaki-para, .teriyaki-ingredients,
+ .teriyaki-steps{
+   font-family: 'Courier New', Courier, monospace;
+ }
+
+ 
